@@ -17,7 +17,7 @@ namespace myapp
             while (primeNumbers.Count < n)
             {
                 isPrime = true;
-                counter++;
+                counter = counter +1;
                 foreach (int prime in primeNumbers)
                 {
                     if (counter % prime == 0)
