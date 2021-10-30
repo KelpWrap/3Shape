@@ -73,7 +73,7 @@ namespace myapp
                 case "socialdistance":
                     int delimiterPos = arguments.IndexOf(',');
                     string sdArg1 = arguments.Substring(0,delimiterPos);
-                    string sdArg2S = arguments.Substring(delimiterPos, arguments.Length-delimiterPos);
+                    string sdArg2S = arguments.Substring(delimiterPos+1, arguments.Length-delimiterPos-1);
                     if (Int32.TryParse(sdArg2S, out int sdArg2))
                     {
                         Console.WriteLine(socialDistance.MaxChanges(sdArg1, sdArg2));
