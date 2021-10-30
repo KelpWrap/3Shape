@@ -1,0 +1,16 @@
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\bin\Debug\net5.0\myapp.exe
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\bin\Debug\net5.0\myapp.deps.json
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\bin\Debug\net5.0\myapp.runtimeconfig.json
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\bin\Debug\net5.0\myapp.runtimeconfig.dev.json
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\bin\Debug\net5.0\myapp.dll
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\bin\Debug\net5.0\ref\myapp.dll
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\bin\Debug\net5.0\myapp.pdb
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\obj\Debug\net5.0\myapp.csproj.AssemblyReference.cache
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\obj\Debug\net5.0\myapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\obj\Debug\net5.0\myapp.AssemblyInfoInputs.cache
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\obj\Debug\net5.0\myapp.AssemblyInfo.cs
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\obj\Debug\net5.0\myapp.csproj.CoreCompileInputs.cache
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\obj\Debug\net5.0\myapp.dll
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\obj\Debug\net5.0\ref\myapp.dll
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\obj\Debug\net5.0\myapp.pdb
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\obj\Debug\net5.0\myapp.genruntimeconfig.cache
