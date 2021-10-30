@@ -20,18 +20,24 @@ namespace myapp
                 var wordMap = new Dictionary<string, int>();
                 foreach (string word in stripped.Split(' '))
                 {
-                    if (!wordMap.ContainsKey(word))
+                    string wordLC = word.ToLower();
+                    if (!wordMap.ContainsKey(wordLC))
                     {
-                        wordMap[word] = 1;
+                        wordMap[wordLC] = 1;
                     }
                     else
                     {
-                        wordMap[word] = wordMap[word] + 1;
+                        wordMap[wordLC] = wordMap[wordLC] + 1;
                     }
                 }
-                foreach (var wordCountPair in wordMap)
+                string outputPath = path.Insert(path.IndexOf(".txt"), "out");
+                using (StreamWriter sw = File.CreateText(outputPath))
                 {
-                    Console.WriteLine(String.Format("{0}: {1}", wordCountPair.Key, wordCountPair.Value));
+                    foreach (var wordCountPair in wordMap)
+                    {
+                        sw.WriteLine(String.Format("{0}: {1}", wordCountPair.Key, wordCountPair.Value));
+                    }
+
                 }
             }
         }
