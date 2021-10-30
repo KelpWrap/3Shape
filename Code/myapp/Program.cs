@@ -53,7 +53,7 @@ namespace myapp
                 case "fibonaccirequisition":
                     if (Int32.TryParse(arguments, out int fibArg1))
                     {
-                        fibonacci.CalculateFib(fibArg1);
+                        Console.WriteLine(fibonacci.CalculateFib(fibArg1));
                     } else {
                         Console.WriteLine("The number you entered is not valid");
                     }
