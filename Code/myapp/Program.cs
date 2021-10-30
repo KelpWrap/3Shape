@@ -52,14 +52,7 @@ namespace myapp
                 Console.WriteLine(String.Format("{0}: {1}", wordCountPair.Key, wordCountPair.Value));
             }
         }
-        public string StripPunctuation(string s){
-            var sb = new StringBuilder();
-            foreach (char c in s){
-                if (!char.IsPunctuation(c))
-                    sb.Append(c);
-            }
-            return sb.ToString();
-        }
+
 
         public int SocialDistance(string s, int k){
             int pos = 0;
@@ -77,6 +70,23 @@ namespace myapp
             return changes;
         }
 
+        static void Main(string[] args)
+        {
+            ThreeShapeTest threeShapeTest = new ThreeShapeTest();
+            //Console.WriteLine(threeShapeTest.Fibonacci(20));
+            //threeShapeTest.WordCount("I do love this dog, do I not?");
+            Console.WriteLine(threeShapeTest.SocialDistance("10000100", 2));
+        }
+
+        private string StripPunctuation(string s){
+            var sb = new StringBuilder();
+            foreach (char c in s){
+                if (!char.IsPunctuation(c))
+                    sb.Append(c);
+            }
+            return sb.ToString();
+        }
+
         private int getSumOfNeighbours(int pos, string s, int k)
         {
             int start = pos - k;
@@ -89,14 +99,6 @@ namespace myapp
             }
             int stringLength = end-start+1;
             return s.Substring(start, stringLength).Count(x => (x.Equals('1')));
-        }
-
-        static void Main(string[] args)
-        {
-            ThreeShapeTest threeShapeTest = new ThreeShapeTest();
-            //Console.WriteLine(threeShapeTest.Fibonacci(20));
-            //threeShapeTest.WordCount("I do love this dog, do I not?");
-            Console.WriteLine(threeShapeTest.SocialDistance("10000100", 2));
         }
     }
 }
