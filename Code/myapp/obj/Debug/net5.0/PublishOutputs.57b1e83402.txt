@@ -1,0 +1,5 @@
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\bin\Debug\net5.0\publish\myapp.exe
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\bin\Debug\net5.0\publish\myapp.dll
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\bin\Debug\net5.0\publish\myapp.deps.json
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\bin\Debug\net5.0\publish\myapp.runtimeconfig.json
+C:\Users\oscan\Documents\work\repo\3Shape\Code\myapp\bin\Debug\net5.0\publish\myapp.pdb
