@@ -19,6 +19,7 @@ namespace myapp
             Console.WriteLine("CountWords(path), where path is the absolute path to the input file");
             Console.WriteLine("SocialDistance(s, k), where s is the binary string and k is the table distance");
             Console.WriteLine("Quit()");
+            Console.WriteLine("");
         }
         static void Main(string[] args)
         {
@@ -28,26 +29,27 @@ namespace myapp
             {
                 var input = Console.ReadLine();
                 threeShapeTest.Evaluate(input);
+                Console.WriteLine("");
             }
         }
 
         private void Evaluate(string input)
         {
             string function;
-            int argumentStart;
             string arguments;
+            //Seperate input command into what function is being called and what the input to that function will be.
             try
             {
-                argumentStart = input.IndexOf('(') + 1;
+                int argumentStart = input.IndexOf('(') + 1;
                 function = input.Substring(0,  argumentStart - 1);
                 arguments = input.Substring(argumentStart, input.IndexOf(')') - argumentStart);
             }
             catch
             {
-                argumentStart = 0;
                 arguments = "";
                 function = "";
             }
+            //Compare function name
             switch (function.ToLower())
             {
                 case "fibonaccirequisition":
