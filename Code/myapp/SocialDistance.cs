@@ -30,6 +30,7 @@ namespace myapp
         {
             int start = pos - k;
             int end = pos + k;
+            //Start and end position are adjusted if we are at the start or end of the string.
             if (start < 0)
             {
                 start = 0;
@@ -39,6 +40,7 @@ namespace myapp
                 end = s.Length - 1;
             }
             int stringLength = end - start + 1;
+            // we count the numbers of occupied tables in the vicinity
             return s.Substring(start, stringLength).Count(x => (x.Equals('1')));
         }
     }
